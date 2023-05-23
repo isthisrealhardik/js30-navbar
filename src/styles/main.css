@@ -88,6 +88,9 @@ span {
 #right {
     display: none;
 }
+#Hero {
+    display: none;
+}
 #below {
     display: flex;
     flex-direction: column;

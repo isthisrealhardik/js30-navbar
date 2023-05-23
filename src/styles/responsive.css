@@ -64,7 +64,7 @@
         width: 150px;
     }
     #right {
-        display: flex;
+        display: block;
     }
     #above {
         display: flex;
@@ -94,6 +94,7 @@
         font-size: 15px;
     }
     #Hero {
+        display: block;
         width: 350px;
     }
     #below {
