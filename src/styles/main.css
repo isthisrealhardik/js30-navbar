@@ -149,4 +149,5 @@ h3 {
     font-family: var(--primary-font);
     color: black;
     font-weight: 400;
+    font-size: 15px;
 }
