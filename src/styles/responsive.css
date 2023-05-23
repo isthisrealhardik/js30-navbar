@@ -12,7 +12,7 @@
 
 @media (min-width: 1024px) {
     #container {
-        height: 100vh;
+        height: 100%;
     }
     #Menu {
         display: none;
@@ -21,7 +21,7 @@
         display: block;
     }
     #nav, #main {
-        padding: 20px 250px;
+        padding: 20px 100px;
     }
     #Links {
         display: flex;
@@ -35,7 +35,7 @@
         color: var(--paragraph-color);
     }
     #Links h2 {
-        font-size: 20px;
+        font-size: 15px;
         font-family: var(--primary-font);
         font-weight: 400;
     }
@@ -52,16 +52,16 @@
         font-size: 16px;
     }
     #button {
-        width: 180px;
-        height: 70px;
-        font-size: 20px;
+        width: 160px;
+        height: 50px;
+        font-size: 15px;
         font-weight: 700;
     }
     #button2:hover {
         opacity: 0.5;
     }
     #Logo {
-        width: 200px;
+        width: 150px;
     }
     #right {
         display: flex;
@@ -82,25 +82,26 @@
         justify-content: start;
     }
     #heading {
-        font-size: 80px;
-        line-height: 90px;
+        font-size: 50px;
+        line-height: 60px;
     }
     #paragraph {
-        font-size: 25px;
+        font-size: 15px;
         padding-right: 50px;
         margin: 20px 0px;
     }
     #flex-p {
-        font-size: 20px;
+        font-size: 15px;
     }
     #Hero {
-        width: 500px;
+        width: 350px;
     }
     #below {
         margin-top: 40px;
     }
     #icon-i {
         margin: 15px 30px;
+        width: 150px;
     }
     #pop {
         width: 450px;
