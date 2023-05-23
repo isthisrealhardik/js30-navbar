@@ -29,6 +29,9 @@
 #Menu {
     width: 8%;
 }
+#Links, #buttons {
+    display: none;
+}
 #main {
     display: flex;
     flex-direction: column;
@@ -54,7 +57,7 @@ span {
     font-family: var(--primary-font);
     margin: 10px 0px;
 }
-button {
+#button {
     height: 50px;
     border: none;
     width: 120px;
@@ -66,7 +69,7 @@ button {
     margin: 15px 0px;
     transition: all 0.2s;
 }
-button:hover {
+#button:hover {
     border: 1px solid #133416;
     background-color: var(--primary);
     color: #133416;
@@ -81,6 +84,9 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#right {
+    display: none;
 }
 #below {
     display: flex;
@@ -109,6 +115,7 @@ button:hover {
     left: 10px;
     padding: 25px;
     display: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 #inside-nav {
     display: flex;
